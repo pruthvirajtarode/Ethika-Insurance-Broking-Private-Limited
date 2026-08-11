@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-navy: #0f172a;
+  --color-brand-navy-dark: #020617;
+  --color-brand-charcoal: #334155;
+  --color-brand-teal: #0d9488;
+  --color-brand-teal-light: #14b8a6;
+  --color-brand-teal-dark: #0f766e;
+  --color-brand-offwhite: #f8fafc;
+  
+  --font-sans: 'Inter', 'Geist', 'Manrope', 'Helvetica Neue', sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-brand-offwhite text-brand-navy font-sans antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold tracking-tight text-brand-navy-dark;
+  }
+}
+
+@layer utilities {
+  .bg-gradient-ethika {
+    @apply bg-gradient-to-br from-brand-navy-dark via-brand-navy to-brand-teal-dark;
+  }
+  
+  .text-gradient-ethika {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-brand-teal to-blue-500;
+  }
+  
+  .glass-card {
+    @apply bg-white/80 backdrop-blur-lg border border-white/20 shadow-xl rounded-2xl;
+  }
+}
