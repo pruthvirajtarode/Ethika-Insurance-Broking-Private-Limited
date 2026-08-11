@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ethika-insurance-broking-private-li.vercel.app/sitemap.xml

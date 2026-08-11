@@ -19,7 +19,7 @@ export function PromptLab() {
   };
 
   return (
-    <div className="bg-brand-navy rounded-3xl p-8 shadow-2xl flex flex-col h-[600px] border border-white/10 relative overflow-hidden">
+    <div className="bg-brand-navy rounded-3xl p-8 shadow-2xl flex flex-col min-h-[600px] md:h-[600px] h-auto border border-white/10 relative overflow-hidden">
       <div className="absolute top-0 right-0 w-64 h-64 bg-brand-teal rounded-full blur-[80px] opacity-20 pointer-events-none" />
 
       <div className="flex items-center justify-between mb-6 pb-4 border-b border-white/10 relative z-10">

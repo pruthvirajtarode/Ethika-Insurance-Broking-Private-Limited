@@ -24,7 +24,7 @@ Missing: Indoor case papers not attached to the portal submission.`;
   };
 
   return (
-    <div className="bg-white rounded-3xl p-8 border border-gray-200 shadow-sm flex flex-col h-[600px]">
+    <div className="bg-white rounded-3xl p-8 border border-gray-200 shadow-sm flex flex-col min-h-[600px] md:h-[600px] h-auto">
       <div className="flex items-center justify-between mb-6 pb-4 border-b border-gray-100">
         <div>
           <h2 className="text-2xl font-bold text-brand-navy">Claims Intelligence</h2>
