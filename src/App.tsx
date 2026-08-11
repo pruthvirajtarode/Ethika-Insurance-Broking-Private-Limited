@@ -8,6 +8,7 @@ import Opportunities from './pages/Opportunities';
 import ResponsibleAI from './pages/ResponsibleAI';
 import PitchReport from './pages/PitchReport';
 import Demos from './pages/Demos';
+import { ScrollToTopButton } from './components/ScrollToTopButton';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -32,6 +33,7 @@ function App() {
           <Route path="/pitch-report" element={<PitchReport />} />
         </Routes>
       </main>
+      <ScrollToTopButton />
       <Footer />
     </div>
   );
