@@ -7,6 +7,7 @@ import Workshop from './pages/Workshop';
 import Opportunities from './pages/Opportunities';
 import ResponsibleAI from './pages/ResponsibleAI';
 import PitchReport from './pages/PitchReport';
+import WhyBe10X from './pages/WhyBe10X';
 import Demos from './pages/Demos';
 import { ScrollToTopButton } from './components/ScrollToTopButton';
 
@@ -31,6 +32,7 @@ function App() {
           <Route path="/demos" element={<Demos />} />
           <Route path="/responsible-ai" element={<ResponsibleAI />} />
           <Route path="/pitch-report" element={<PitchReport />} />
+          <Route path="/why-be10x" element={<WhyBe10X />} />
         </Routes>
       </main>
       <ScrollToTopButton />

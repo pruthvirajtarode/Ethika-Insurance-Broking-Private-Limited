@@ -8,6 +8,7 @@ const navLinks = [
   { name: 'Workshop', path: '/workshop' },
   { name: 'AI Opportunities', path: '/opportunities' },
   { name: 'Live Demos', path: '/demos' },
+  { name: 'Why Be10X', path: '/why-be10x' },
   { name: 'Responsible AI', path: '/responsible-ai' },
   { name: 'Pitch Report', path: '/pitch-report' },
 ];
